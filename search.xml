@@ -8,14 +8,12 @@
       <link href="/2023/03/10/%E6%B5%8B%E8%AF%95blog/"/>
       <url>/2023/03/10/%E6%B5%8B%E8%AF%95blog/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="markdown语法简介"><a href="#markdown语法简介" class="headerlink" title="markdown语法简介"></a>markdown语法简介</h1><h2 id="标题说明"><a href="#标题说明" class="headerlink" title="标题说明"></a>标题说明</h2><p>文字前加＃号和空格,即可实现多级标题，＃越少，标题级越高，此处为两个＃号,其他例子如下</p><h3 id="三级标题（”三个“）"><a href="#三级标题（”三个“）" class="headerlink" title="三级标题（”三个“）"></a>三级标题（”三个“）</h3><h4 id="四级标题（”四个“）"><a href="#四级标题（”四个“）" class="headerlink" title="四级标题（”四个“）"></a>四级标题（”四个“）</h4><h2 id="换行说明"><a href="#换行说明" class="headerlink" title="换行说明"></a>换行说明</h2><p>方法一：空一行即可实现换行</p><p>方法二：使用两个以上的换行加回车</p><h2 id="字体说明"><a href="#字体说明" class="headerlink" title="字体说明"></a>字体说明</h2><h3 id="字体粗细"><a href="#字体粗细" class="headerlink" title="字体粗细"></a>字体粗细</h3><p><em>斜体文本</em> ： ’* +文字+ *‘</p><p><em>斜体文本</em> ： ’_ +文字+ _‘</p><p><strong>粗体文本</strong>:  ’** +文字+ **‘</p><p><strong>粗体文本</strong>: ’__ +文字+ __‘</p><p><em><strong>粗斜体文本</strong></em>:  ’*** +文字+ ***‘</p><p><em><strong>粗斜体文本</strong></em>:  ’___ +文字+ ___‘</p><h3 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h3><p>在文字的两端分别加上两个波浪线<del>即可： ~~我是你爹</del></p><h3 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h3><p>使用HTML的标签’&lt;’u’&gt;’（把单引号去掉，因为我一输入那个就生成下划线了）</p><h3 id="脚注格式"><a href="#脚注格式" class="headerlink" title="脚注格式"></a>脚注格式</h3><p>[^文本]</p><p>例如这样<a href="%E5%B0%B1%E6%98%AF%E8%BF%99%E6%A0%B7%EF%BC%9B">^runoob</a></p><h3 id="Markdown列表"><a href="#Markdown列表" class="headerlink" title="Markdown列表"></a>Markdown列表</h3><p>Markdown 支持有序列表和无序列表。</p><p>无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记，这些标记后面要添加一个空格，然后再填写内容</p><p>有序列表使用数字并加上 . 号来表示</p><p>列表嵌套：列表嵌套只需在子列表中的选项前面添加两个或四个空格即可</p>]]></content>
       
       
       <categories>
           
           <category> 分类-1 </category>
-          
-          <category> 分类-2 </category>
           
       </categories>
       
