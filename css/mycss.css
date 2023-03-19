@@ -2,6 +2,9 @@
 .layout_post>#post {
     /* 以下代表透明度为0.5 可以自行修改*/
     background: rgba(255,255,255,.5);
+#web_bg {
+    background: linear-gradient(to right bottom, rgb(0, 255, 240), rgb(92, 159, 247) 40%, rgb(211, 34, 255) 80%);
+}
 }
 
 /* 所有页面背景 */
@@ -20,8 +23,5 @@
     100% {
         background-position: 0% 50%;
     }
-}
-#web_bg {
-    background: linear-gradient(to right bottom, rgb(0, 255, 240), rgb(92, 159, 247) 40%, rgb(211, 34, 255) 80%);
 }
 
