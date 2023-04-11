@@ -46,6 +46,33 @@
     
     
     <entry>
+      <title>测试blog</title>
+      <link href="/2023/03/10/poj1995/"/>
+      <url>/2023/03/10/poj1995/</url>
+      
+        <content type="html"><![CDATA[<h1 id="poj1995题解"><a href="#poj1995题解" class="headerlink" title="poj1995题解"></a>poj1995题解</h1><h2 id="一、题目介绍"><a href="#一、题目介绍" class="headerlink" title="一、题目介绍"></a>一、题目介绍</h2><p>求a的b次方对p取模的值，其中1&lt;&#x3D;a,b,p&lt;&#x3D;10^9</p><h2 id="二、核心代码"><a href="#二、核心代码" class="headerlink" title="二、核心代码"></a>二、核心代码</h2><p>、、、<br>int power(int a, int b, int p) {<br>   int ans &#x3D; 1 % p;<br>   for (; b; b &gt;&gt;&#x3D; 1)<br>   {<br>     if (b &amp; 1)ans &#x3D; (long long)ans * a % p;<br>     a &#x3D; (long long)a * a % p;<br>   }<br>   return ans;<br>}<br>、、、</p><h2 id="三、完整代码"><a href="#三、完整代码" class="headerlink" title="三、完整代码"></a>三、完整代码</h2><p>、、、<br>#include<iostream><br>using namespace std;<br>int power(int a, int b, int p) {<br>int ans &#x3D; 1 % p;<br>for (; b; b &gt;&gt;&#x3D; 1)<br>{<br>if (b &amp; 1)ans &#x3D; (long long)ans * a % p;<br>a &#x3D; (long long)a * a % p;<br>}<br>return ans;<br>}</p><p>int main() {<br>int num_of_question;<br>int num;<br>int ans;<br>int a, b, p;<br>scanf_s(“%d”, &amp;num_of_question);<br>for (int i &#x3D; 0; i &lt; num_of_question; i++)<br>{<br>ans &#x3D; 0;<br>scanf_s(“%d %d”, &amp;p,&amp;num);<br>for (int j &#x3D; 0; j &lt; num; j++)<br>{<br>scanf_s(“%d %d”, &amp;a, &amp;b);<br>ans +&#x3D; power(a, b, p);<br>ans %&#x3D; p;<br>}<br>printf(“%d\n”, ans);<br>}<br>return 0;<br>}<br>、、、</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 算法题 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> poj </tag>
+            
+            <tag> 移位运算 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2023/03/06/hello-world/"/>
       <url>/2023/03/06/hello-world/</url>
